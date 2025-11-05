@@ -1,0 +1,12 @@
+#include <iostream>
+ 
+int main() {
+    int number = 3;
+ 
+    if (number > 1)
+       	std::cout << "1 < " << number << std::endl;
+    else 
+        std::cout << "1	> " << number << std::endl;
+
+    return 0; 
+} 
